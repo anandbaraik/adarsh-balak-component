@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+/* deafult */
 :root{
-    --primary-color: #2563eb;
+    --primary-color: #7c3aed;
     --secondary-color: #94a3b8;
     --of-white-color: #e2e8f0;
 }
@@ -11,6 +12,10 @@ body{
 .text-sm{
     font-size: 0.8rem;
 }
+hr {
+    margin: 2rem 0rem;
+}
+/* Container */
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -18,4 +23,18 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
+}
+/* link */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+background-color: var(--primary-color);
+color: #ffffff;
+border-radius: 0.5rem;
+}
+.link-secondary{
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
 }
