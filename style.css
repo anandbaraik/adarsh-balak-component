@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+:root{
+    --primary-color: #2563eb;
+    --secondary-color: #94a3b8;
+    --of-white-color: #e2e8f0;
+}
 body{
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
+}
+.text-sm{
+    font-size: 0.8rem;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
 }
