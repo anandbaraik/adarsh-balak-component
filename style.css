@@ -57,7 +57,7 @@ border-radius: 0.5rem;
 .nav-pills{
     text-align: right;
 }
-.navigation a{
+.navigation a, .footer a{
     color: #fff;
     text-decoration: none;
 }
@@ -77,4 +77,15 @@ border-radius: 0.5rem;
     text-align: center;
     color: var(--secondary-color);
     padding-top: 1rem;
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.footer .heading{
+    font-weight: bold;
+    font-size: larger;
 }
