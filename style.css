@@ -45,3 +45,22 @@ border-radius: 0.5rem;
     display: inline;
     padding: 0rem 0.5rem;
 }
+.navigation{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.brand{
+    font-weight: bold;
+}
+.nav-pills{
+    text-align: right;
+}
+.navigation a{
+    color: #fff;
+    text-decoration: none;
+}
+.navigation a.active{
+    font-weight: bold;
+}
