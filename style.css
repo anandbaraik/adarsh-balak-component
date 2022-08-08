@@ -89,3 +89,12 @@ border-radius: 0.5rem;
     font-weight: bold;
     font-size: larger;
 }
+.section{
+ padding: 1rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow-section{
+    background-color: var(--of-white-color);
+}
